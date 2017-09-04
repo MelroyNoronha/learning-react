@@ -4,9 +4,7 @@ import './App.css';
 class Label extends Component {
     render() {
       return (
-        <p className = "label">
-            #FF6663
-        </p>
+        <input className = "label"/>
       );
     }
   }
