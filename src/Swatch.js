@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 
 class Swatch extends Component {
     render() {
@@ -9,4 +9,4 @@ class Swatch extends Component {
     }
   }
   
-  export default Swatch;
+  export default Swatch
