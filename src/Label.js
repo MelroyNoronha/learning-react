@@ -1,12 +1,8 @@
-import React, { Component } from 'react'
-import './App.css'
+import React, { Component } from "react";
+import "./App.css";
 
-class Label extends Component {
-    render() {
-      return (
-        <input className = "label"/>
-      );
-    }
+export default class Label extends Component {
+  render() {
+    return <input className="label" />;
   }
-  
-  export default Label;
+}
