@@ -1,0 +1,9 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:mime:20170907':
+    - react-scripts > url-loader > mime:
+        reason: None given
+        expires: '2017-11-01T03:26:07.497Z'
+patch: {}
